@@ -1,18 +1,14 @@
 package com.tcart.repository;
 
-import javax.persistence.Id;
-import javax.transaction.Transactional;
+import com.tcart.models.ChatEntry;
 import org.springframework.data.jpa.repository.JpaRepository;
-
 import org.springframework.stereotype.Repository;
 
-import com.tcart.models.ChatEntry;
-
+import javax.persistence.Id;
+import javax.transaction.Transactional;
 
 @Transactional
 @Repository
 public interface TcartDAO extends JpaRepository<ChatEntry, Id> {
-	
-	
 
 }

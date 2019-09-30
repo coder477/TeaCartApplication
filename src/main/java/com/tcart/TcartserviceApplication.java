@@ -12,8 +12,8 @@ import org.springframework.context.annotation.ComponentScan;
 @EntityScan
 public class TcartserviceApplication {
 
-	public static void main(String[] args) {
-		SpringApplication.run(TcartserviceApplication.class, args);
-	}
+    public static void main(String[] args) {
+        SpringApplication.run(TcartserviceApplication.class, args);
+    }
 
 }
